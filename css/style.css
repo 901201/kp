@@ -1,3 +1,7 @@
+/**
+ * Theme Name:  iQ
+ */
+
 :root {
     --formula: ((100vw - 320px) / (1920 - 320));
 
