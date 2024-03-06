@@ -12,8 +12,8 @@
 
 
     --gap-x: calc(16px + (30 - 16) * var(--formula));
-    --gap-y: calc(20px + (72 - 20) * var(--formula));
-    --padding: calc(10px + (24 - 10) * var(--formula));
+    --gap-y: calc(16px + (72 - 16) * var(--formula));
+    --padding: calc(5px + (24 - 5) * var(--formula));
 
     --max-width-item: calc(310px + (350 - 310) * var(--formula));
 }
@@ -104,6 +104,14 @@ header {
 /*  */
 
 @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
     .header__image,
     .contacts {
         position: absolute;
