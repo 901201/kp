@@ -11,7 +11,7 @@
     --background-color: #1C4177;
     --orange: #ff6600;
 
-    --max-width: calc(350px + (1700 - 350) * var(--formula));
+    --max-width: calc(300px + (1700 - 300) * var(--formula));
     --max-height-header: calc(128px + (128 - 128) * var(--formula));
 
     --gap-x: calc(16px + (36 - 16) * var(--formula));
