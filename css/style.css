@@ -143,6 +143,10 @@ header {
 
         z-index: 3;
     }
+
+    .item-text__list > li {
+        padding: .5rem;
+    }
 }
 
 #menu__toggle {
