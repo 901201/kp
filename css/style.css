@@ -1,7 +1,7 @@
 :root {
     --formula: ((100vw - 320px) / (1920 - 320));
 
-    --font-size: calc(12px + (16 - 12) * var(--formula));
+    --font-size: calc(14px + (16 - 14) * var(--formula));
 
     --color: aliceblue;
     --background-color: #1C4177;
@@ -14,7 +14,7 @@
     --gap-y: calc(36px + (72 - 36) * var(--formula));
     --padding: calc(10px + (24 - 10) * var(--formula));
 
-    --max-width-item: calc(300px + (350 - 300) * var(--formula));
+    --max-width-item: calc(300px + (330 - 300) * var(--formula));
 }
 
 *,
