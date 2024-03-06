@@ -253,7 +253,7 @@ section > * {
 */
 
 .card__image {
-    max-width: var(--max-width-item);
+    width: 100%;
     height: 100%;
 
 }
