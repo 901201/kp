@@ -7,7 +7,7 @@
     --background-color: #1C4177;
     --orange: #ff6600;
 
-    --max-width: calc(300px + (1600 - 300) * var(--formula));
+    --max-width: calc(300px + (1700 - 300) * var(--formula));
     --max-height-header: calc(128px + (128 - 128) * var(--formula));
 
     --gap-x: calc(16px + (36 - 16) * var(--formula));
@@ -124,6 +124,7 @@ header {
         top: 0;
         left: 0;
         right: 0;
+        bottom: 0;
 
         background: var(--background-color);
         width: 100dvw;
