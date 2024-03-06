@@ -76,7 +76,7 @@ header {
 }
 
 .header__image {
-    max-width: calc(var(--max-height-header) + 1rem);
+    width: calc(var(--max-height-header));
     height: 100%;
 }
 
