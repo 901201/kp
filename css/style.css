@@ -1,24 +1,21 @@
 :root {
-    --formula: ((100vw - 300px) / (1920 - 300));
+    --formula: ((100vw - 320px) / (1920 - 320));
 
     --font-size: 1rem;
-
-    /* 
-    calc(14px + (16 - 14) * var(--formula));
-     */
 
     --color: aliceblue;
     --background-color: #1C4177;
     --orange: #ff6600;
 
-    --max-width: calc(300px + (1700 - 300) * var(--formula));
+    --max-width: calc(310px + (1700 - 310) * var(--formula));
     --max-height-header: calc(128px + (128 - 128) * var(--formula));
+    
 
     --gap-x: calc(16px + (30 - 16) * var(--formula));
     --gap-y: calc(36px + (72 - 36) * var(--formula));
     --padding: calc(10px + (24 - 10) * var(--formula));
 
-    --max-width-item: calc(300px + (325 - 300) * var(--formula));
+    --max-width-item: calc(310px + (350 - 310) * var(--formula));
 }
 
 *,
