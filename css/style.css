@@ -11,7 +11,7 @@
     --max-height-header: calc(128px + (128 - 128) * var(--formula));
 
 
-    --gap-x: calc(16px + (30 - 16) * var(--formula));
+    --gap-x: calc(16px + (20 - 16) * var(--formula));
     --gap-y: calc(16px + (72 - 16) * var(--formula));
     --padding: calc(10px + (24 - 10) * var(--formula));
 
