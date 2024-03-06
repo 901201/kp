@@ -9,10 +9,10 @@
 
     --max-width: calc(310px + (1700 - 310) * var(--formula));
     --max-height-header: calc(128px + (128 - 128) * var(--formula));
-    
+
 
     --gap-x: calc(16px + (30 - 16) * var(--formula));
-    --gap-y: calc(36px + (72 - 36) * var(--formula));
+    --gap-y: calc(20px + (72 - 20) * var(--formula));
     --padding: calc(10px + (24 - 10) * var(--formula));
 
     --max-width-item: calc(310px + (350 - 310) * var(--formula));
